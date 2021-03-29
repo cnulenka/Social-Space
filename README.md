@@ -1,2 +1,2 @@
-# Space-Social
-A social media platform for space enthusiasts.
+# Social-Space
+A social media platform for outer space enthusiasts.
