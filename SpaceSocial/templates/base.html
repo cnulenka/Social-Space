@@ -33,7 +33,7 @@
     					<ul class="nav navbar-nav navbar-right">
     						{% if user.is_authenticated %}
                       <li><a href="#" class="btn btn-simple">Post</a></li>
-                      <li><a href="# class="btn btn-simple">Groups</a></li>
+                      <li><a href="#" class="btn btn-simple">Groups</a></li>
                       <li><a href="#" class="btn btn-simple">Create Group</a></li>
                       <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple">Log out</a></li>
     						{% else %}
@@ -47,14 +47,13 @@
 
     			</div>
     		</nav>
-        <div class="container mycontent">
-          {% block content %}
 
-          {% endblock %}
+      <div class="container mycontent">
+        {% block content %}
 
-        </div>
+        {% endblock %}
 
-
+      </div>
 
 <canvas id="canvas"></canvas>
 
